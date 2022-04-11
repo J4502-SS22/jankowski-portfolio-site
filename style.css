@@ -68,3 +68,12 @@ nav a:focus {
   color: #8CBFCF;
   background: #000000;
 }
+nav li {
+    height: 100%;
+    width: 33.333333%;
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+    border-top: unset;
+    border-bottom: unset;
+  }
+}
