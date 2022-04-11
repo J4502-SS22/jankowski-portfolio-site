@@ -44,6 +44,7 @@ nav li {
   border-top: 1px solid #FFF;
   border-bottom: 1px solid #FFF;
 }
+
 a {
   color: #2A5765;
   font-weight: bold;
@@ -63,6 +64,33 @@ nav a:focus {
   background: #FFFFFF;
   color: #2D5D6C;
 }
+
+.active {
+  color: #8CBFCF;
+  background: #000000;
+}
+
+.projects ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.projects li {
+  margin: 1rem 0px;
+  display: block;
+}
+
+footer {
+  background: #2D5D6C;
+  color: #ffffff;
+  text-align:center;
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .skip-link {
   position: absolute;
   width: 1px;
@@ -86,12 +114,7 @@ nav a:focus {
   nav ul {
     flex-direction: row;
   }
-
-.active {
-  color: #8CBFCF;
-  background: #000000;
-}
-nav li {
+  nav li {
     height: 100%;
     width: 33.333333%;
     border-left: 1px solid #FFF;
