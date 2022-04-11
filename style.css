@@ -63,6 +63,29 @@ nav a:focus {
   background: #FFFFFF;
   color: #2D5D6C;
 }
+.skip-link {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  border: 0;
+  font-size: 1.5rem;
+}
+
+.skip-link:focus {
+  width: unset;
+  height: unset;
+  position: relative;
+  margin: unset;
+  padding: unset;
+}
+
+@media (min-width: 655px) {
+  nav ul {
+    flex-direction: row;
+  }
 
 .active {
   color: #8CBFCF;
