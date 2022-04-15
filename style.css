@@ -10,7 +10,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
   align-content: center;
-  padding:20;
+  padding:0;
   margin:0;
   list-style-type: none;
 }
