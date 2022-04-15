@@ -9,6 +9,7 @@ body {
   display:flex;
   flex-direction:column;
   justify-content: space-around;
+  align-content: center;
   padding:20;
   margin:0;
   list-style-type: none;
