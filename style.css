@@ -1,0 +1,29 @@
+body {
+  margin:0;
+  padding:0;
+}
+
+.navlist {
+  width:100%;
+  border: 1px solid red;
+  display:flex;
+  flex-direction:column;
+  padding:0;
+  margin:0;
+  list-style-type: none;
+}
+
+
+@media (min-width: 700px) {
+.navlist {
+  font-size: 2em;
+  background:grey;
+  border: 3px solid black;
+  flex-direction:row;
+}
+
+.navlist li {
+  width:25%;
+}
+
+}
