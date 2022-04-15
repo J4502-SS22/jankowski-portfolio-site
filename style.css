@@ -26,5 +26,8 @@ body {
 .navlist li {
   width:25%;
 }
-
+.projects {
+  display:flex;
+  justify-content: center;
+}
 }
