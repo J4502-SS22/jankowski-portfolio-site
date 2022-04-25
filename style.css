@@ -1,9 +1,9 @@
 
-.navlist {
+nav {
   background: #2D5D6C;
 }
 
-.navlist ul {
+nav ul {
   display:flex;
   flex-direction: column;
   list-style-type: none;
@@ -12,7 +12,7 @@
   height: 100%;
 }
 
-.navlist {
+nav {
   width:100%;
   border: 1px solid red;
   display:flex;
@@ -24,21 +24,21 @@
 
 
 @media (min-width: 700px) {
-.navlist {
+nav {
   font-size: 2em;
   background:grey;
   border: 3px solid black;
   flex-direction:row;
 }
 
-.navlist li {
+nav li {
   width:25%;
 a {
   color: #2A5765;
   font-weight: bold;
 }
 
-.navlist a {
+nav a {
     color: #FFFFFF;
     text-decoration: none;
     padding: 1rem;
