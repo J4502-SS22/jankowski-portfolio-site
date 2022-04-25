@@ -1,9 +1,11 @@
+
 nav {
-  background: #7DCEA0;
+  background: #2D5D6C;
 }
 
 nav ul {
   display:flex;
+  flex-direction: column;
   list-style-type: none;
   margin: 0;
   padding: 0px;
@@ -15,6 +17,7 @@ nav li {
   height: 33.333333%;
   display: flex;
   justify-content: center;
+  align-items: center;
   font-size: 1rem;
   box-sizing: border-box;
   text-align: center;
@@ -23,12 +26,12 @@ nav li {
 }
 
 a {
-  color: #DAF7A6;
+  color: #2A5765;
   font-weight: bold;
 }
 
 nav a {
-    color: #FF5733;
+    color: #FFFFFF;
     text-decoration: none;
     padding: 1rem;
     width: 100%;
@@ -39,10 +42,64 @@ nav a {
 
 nav a:focus {
   background: #FFFFFF;
-  color: #FAE5D3;
+  color: #2D5D6C;
 }
 
 .active {
-  color: #C70039;
-  background: #F2F4F4;
+  color: #8CBFCF;
+  background: #000000;
+}
+
+.projects ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.projects li {
+  margin: 1rem 0px;
+  display: block;
+}
+
+footer {
+  background: #2D5D6C;
+  color: #ffffff;
+  text-align:center;
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.skip-link {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  border: 0;
+  font-size: 1.5rem;
+}
+
+.skip-link:focus {
+  width: unset;
+  height: unset;
+  position: relative;
+  margin: unset;
+  padding: unset;
+}
+
+@media (min-width: 655px) {
+  nav ul {
+    flex-direction: row;
+  }
+  nav li {
+    height: 100%;
+    width: 33.333333%;
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+    border-top: unset;
+    border-bottom: unset;
+  }
 }
