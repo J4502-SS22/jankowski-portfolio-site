@@ -23,12 +23,12 @@ nav li {
 }
 
 a {
-  color: #FFFFFF;
+  color: #DAF7A6;
   font-weight: bold;
 }
 
 nav a {
-    color: #FAE5D3;
+    color: #FF5733;
     text-decoration: none;
     padding: 1rem;
     width: 100%;
@@ -37,12 +37,12 @@ nav a {
     box-sizing: border-box;
 }
 
-nav a:focus {
+nav a:hover {
   background: #FFFFFF;
-  color: #FFC300;
+  color: #FAE5D3;
 }
 
 .active {
-  color: #FFFFFF;
-  background: #FAE5D3;
+  color: #C70039;
+  background: #F2F4F4;
 }
