@@ -83,3 +83,9 @@ nav a:hover::before {
 .active {
   color: white;
 }
+.home  {
+  text-align: center;
+}
+.two {
+  text-align: center;
+}
