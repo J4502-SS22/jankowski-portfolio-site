@@ -18,14 +18,13 @@ nav a {
    font-family: 'Times New Roman',serif;
    font-weight: 250;
    padding: 10px 5px;
-   display: flex;
 }
 .navlist {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background: #5C79EC;
+    background: #A8B9FB;
     z-index: 10000;
     border-bottom: 4px solid #323042;
     color: black;
@@ -34,7 +33,7 @@ body {
   color: black;
   font-family: serif;
   font-size: 18px;
-  background: #DFE1E9;
+  background: #EEEFF1;
   width: 100vw;
   padding: 50px;
   box-sizing: border-box;
