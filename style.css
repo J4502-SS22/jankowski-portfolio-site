@@ -88,3 +88,8 @@ nav a:hover::before {
 .two {
   text-align: center;
 }
+.embeds {
+  display:block;
+    margin-left: auto;
+  margin-right: auto;
+}
