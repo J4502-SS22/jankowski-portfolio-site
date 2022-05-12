@@ -41,6 +41,7 @@ body {
 h1 {
   display: flex;
   justify-content: center;
+  font-family: 'Goudy Old Style', serif;
 }
 body a {
   text-decoration: none;
@@ -112,5 +113,30 @@ justify-content: space-around;
 }
 .backtotop {
   color: #334694;
+}
+img {
+  display:block;
+    margin-left: auto;
+  margin-right: auto;
+  width: 450px
+}
+.logo {
+  display:block;
+    margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+.letter {
+  display: flex;
+    flex-direction: column;
+    max-width: 700px;
+  }
+  .row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
 }
 }
